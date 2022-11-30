@@ -1,0 +1,211 @@
+body{
+    background-image: url(kellywoodbuilder.png);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.container{
+    position: relative;
+    
+}
+.container-2{
+    position: relative;
+    padding-top: .5rem;
+    padding-bottom:10rem;
+   
+}
+
+.top-nav{
+    position:absolute;
+    padding-top:6.4rem;
+  
+    left: 40rem;
+   
+    
+}
+.image-buttons{
+    border-bottom: 1px solid black;
+}
+
+.home-button{
+    border-bottom: 1px solid rgb(58, 115, 0);
+}
+.contact-info, .top-nav{
+    float:right;
+   
+}
+.contact-info{
+    display: flex; justify-content: space-between;
+    position:absolute;
+    left: 42rem;
+  font-size: 12px;
+  font-weight: 700;
+  opacity: 0.85;
+    
+}
+.location{
+    border-right: 1px solid rgb(214, 214, 214);
+    margin-right: 2.3rem;
+    padding-right: 1rem;
+ 
+}
+.email-address{
+    border-right: 1px solid rgb(214, 214, 214);
+    margin-right: 2rem;
+    padding-right: 1rem;
+    
+   
+}
+.logo{
+    padding:2rem;
+    padding-left: 16rem;
+}
+
+.main-photo{
+    padding-left: 14.5rem;
+}
+.gallery{
+    padding-left: 14.5rem;
+    position:absolute;
+}
+.welcome{
+    position:absolute;
+    padding: 1rem;
+    padding-left: 15rem;
+     
+    top: 7rem;
+    font-size: 11px;
+    padding-top:2rem;
+   
+   
+}
+.welcome-to, .welcome-content{
+    line-height: 1.6;opacity: 0.8;font-weight: 400;
+}
+form{
+    background-color: rgb(240, 240, 240);
+   
+}
+input[type=text] {
+    background-color: rgb(215, 215, 215);
+    color: black;
+    border: 1px solid white;
+    margin-right: .8rem;
+    margin-left: .5rem;
+    line-height: 2em;
+  }
+  input[type=email] {
+    background-color: rgb(215, 215, 215);
+    color: black;
+    border: 1px solid white;
+    margin-left: .5rem;
+    line-height: 2em;
+  }
+  textarea{
+    background-color: rgb(215, 215, 215);
+    border: 1px solid white;
+    margin-left: .5rem;
+    line-height: 2em;
+  }
+.contact-form{
+    margin: 0;
+    padding-top: .5rem;
+    
+    position:absolute;
+    left: 57rem;
+    top: 0;
+    
+}
+ ul#bottom-nav li{
+    display:inline;
+   
+}
+.form-heading{
+    padding:1rem;
+}
+.image-heading, .text-heading{
+    display:inline;
+   
+}
+.image-heading{
+    position: relative;
+    top: -.5rem;
+}
+.text-heading{
+    position: absolute;
+    top: 0rem;
+    font-weight: 900;
+    color: rgb(7, 99, 36);
+}
+.bottom-nav{
+    position: absolute;
+    left: 12rem;
+    top: 19rem;
+    font-size: 10px;
+    font-weight: 600;
+    opacity: 0.8;
+   
+}
+li{
+    padding-right: .05rem;
+}
+.copy-right{
+    position: absolute;
+    left: 14.5rem;
+    top: 20rem;
+    font-size: 10px;
+    opacity: 0.8;
+}
+.dallas{
+    position: absolute;
+    left: 55rem;
+    top: 19rem;
+    font-size: 10px;
+    opacity: 0.7;
+}
+.home-line{
+    color: rgb(7, 99, 36);
+}
+.kwb{
+        color: rgb(7, 99, 36);
+        font-weight:800;
+}
+.welcome-to, .kwb{
+    display:inline;
+}
+.read-more{
+    position: absolute;
+    color: rgb(7, 99, 36);
+    opacity: 1;
+    font-weight: 600;
+    left: 48.5rem;
+    top: 15rem;
+    font-size: 11px;
+    font-weight: 800;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-decoration: none;
+}
+.form-button{
+    text-align: right;
+    box-sizing: border-box; padding-right:12px;
+    height: 10px;
+}
+.home-icon{
+    position:absolute;
+    top:.6rem;
+    left: -1.2rem;
+}
+.mail-icon{
+    position:absolute;
+    top:.8rem;
+    left: 14rem;
+    
+}
+.phone-icon{
+    position:absolute;
+    top:.75rem;
+    left: 24.6rem;
+    
+}
+
